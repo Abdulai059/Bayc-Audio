@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rass Music</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Varela+Round&display=swap"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+    rel="stylesheet" />
+
+  <!-- Font Awesome (for icons) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+  <!-- CSS Link -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="header-container">
+    <!-- Header with Navbar & Hero Section -->
+    <header class="header">
+      <!-- Navbar -->
+      <nav class="navbar">
+        <div class="navbar-container">
+          <div class="logo">BAYC AUDIO</div>
+          
+          <input type="checkbox" id="menu-checkbox" aria-label="Toggle menu">
+          <label for="menu-checkbox" class="menu-toggle" aria-expanded="false" aria-controls="nav-links">
+              Menu <i class="fas fa-bars" aria-hidden="true"></i>
+          </label>
+          
+          <div class="nav-links" id="nav-links" role="navigation">
+              <a href="#about">About</a>
+              <a href="#events">Events</a>
+              <a href="#news">News</a>
+              <a href="#contact">Contact</a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Hero Section -->
+      <div class="header-description" id="about">
+        <h1 class="hero-title">BAYC AUDIO</h1>
+        <p><span class="ptag">Music Streaming Reimagined</span></p>
+        <div class="button-container">
+          <a><span class="button-text">Get Started</span></a>
+        </div>
+      </div>
+    </header>
+
+    <!-- About Us Section -->
+    <section class="about-section">
+      <div class="about-container">
+        <h2 class="section-title">
+          Revolutionize Music Distribution <br />
+          & Content Engagement
+        </h2>
+        <p class="section-description">
+          Sonadia is a Web 3.0 "listen-to-earn" music streaming platform and NFT
+          marketplace. <br />
+          We help artists take ownership through royalty tracking using smart
+          contracts. <br />
+          Fans can engage organically and securely through a utility-based
+          rewards system.
+        </p>
+      </div>
+    </section>
+  </div>
+
+  <main class="main-container">
+    <!-- Section 1: NFTs as Proof of Loyalty -->
+    <section class="loyalty-section">
+      <div class="loyalty-content">
+        <div class="loyalty-image">
+          <img src="./assets/img/bg-masthead.jpg" alt="Concert with crowd and performer in red lighting" />
+        </div>
+        <div class="loyalty-text">
+          <h2>NFTs as Proof of Loyalty</h2>
+          <p>
+            Unlock one-of-a-kind Utility NFTs for discounts, event tickets,
+            merchandise and more.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 2: Community and Talent Grid -->
+    <section class="grid-section">
+      <!-- Top Left: Vintage Boomboxes -->
+      <div class="grid-item">
+        <img src="./assets/img/demo-image-01.jpg" alt="Vintage boomboxes on colorful background" />
+      </div>
+
+      <!-- Top Right: Community Section -->
+      <div class="grid-item">
+        <div class="grid-content">
+          <h3>Community</h3>
+          <p>
+            Join <a href="#">NYC WEB3 Music Society</a> and our
+            <a href="#">Telegram Chat</a> for updates on progress, workshops,
+            and networking events!
+          </p>
+        </div>
+      </div>
+
+      <!-- Bottom Left: Talent Section -->
+      <div class="grid-item">
+        <div class="grid-content">
+          <h3>Talent</h3>
+          <p>
+            We partner with indie musicians to design exclusive digital
+            collectibles backed by real-world utilities to incentivize content
+            engagement and purchases among a global community of music fans.
+          </p>
+        </div>
+      </div>
+
+      <!-- Bottom Right: Cassette Tapes -->
+      <div class="grid-item" id="cassette-image">
+        <img src="./assets/img/demo-image-02.jpg" alt="Row of vintage cassette tapes" />
+      </div>
+    </section>
+  </main>
+
+  <!-- Newsletter and Contact Footer Section -->
+  <section class="footer-section-container" id="news">
+    <!-- Newsletter with Concert Background -->
+    <div class="newsletter-container">
+      <img src="./assets/img/bg-signup.jpg" alt="Concert Background" class="newsletter-bg" />
+      <div class="newsletter-overlay">
+        <h3>Newsletter</h3>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Enter email address..." required />
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Contact Cards Section with Red Bottom Border -->
+    <div class="contact-cards-container" id="events">
+      <div class="contact-card">
+        <div class="icon-container">
+          <i class="fa fa-tree" style="color: #FF4500;"></i>
+        </div>
+        <h4>LINK TREE</h4>
+        <div class="card-divider"></div>
+        <a href="https://linktr.ee/bayc_io" class="contact-link">https://linktr.ee/bayc_io</a>
+      </div>
+
+      <div class="contact-card">
+        <div class="icon-container">
+          <i class="fa fa-envelope" style="color: #FF4500;"></i>
+        </div>
+        <h4>EMAIL</h4>
+        <div class="card-divider"></div>
+        <a href="mailto:info@bayc.io" class="contact-link">info@bayc.io</a>
+      </div>
+
+      <div class="contact-card">
+        <div class="icon-container">
+          <i class="fa fa-calendar" style="color: #FF4500;"></i>
+        </div>
+        <h4>EVENTS</h4>
+        <div class="card-divider"></div>
+        <a href="#" class="contact-link">NYC WEB3 Music Society</a>
+      </div>
+    </div>
+
+    <!-- Social Media Links -->
+    <div class="social-links" id="contact">
+      <a href="#" class="social-button">
+        <i class="fa-brands fa-twitter"></i>
+      </a>
+      <a href="#" class="social-button">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+      <a href="#" class="social-button">
+        <i class="fa-brands fa-discord"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- Copyright -->
+  <div class="copyright">
+    <p>Copyright Northern Audio 2022</p>
+  </div>
+
+
+   <script>
+        // Navbar shrink function
+        var navbarShrink = function () {
+          const navbar = document.querySelector(".navbar");
+          if (!navbar) return;
+          if (window.scrollY === 0) {
+            navbar.classList.remove("navbar-shrink");
+          } else {
+            navbar.classList.add("navbar-shrink");
+          }
+        };
+
+        // Shrink the navbar when page is scrolled
+        document.addEventListener("scroll", navbarShrink);
+        
+        // Initial call to ensure proper state
+        navbarShrink();
+
+        // Menu toggle functionality
+        const menuCheckbox = document.getElementById('menu-checkbox');
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.getElementById('nav-links');
+        
+        menuCheckbox.addEventListener('change', function() {
+            const isExpanded = this.checked;
+            menuToggle.setAttribute('aria-expanded', isExpanded);
+            navLinks.style.maxHeight = isExpanded ? '300px' : '0';
+        });
+    </script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
