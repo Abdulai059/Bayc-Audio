@@ -4,6 +4,12 @@ Bayc Audio is a simple and responsive music streaming frontend built using **HTM
 
 🌐 Live Demo: [bayc-audio.vercel.app](https://bayc-audio.vercel.app/)
 
+## 📸 Preview
+
+![Bayc Audio Screenshot](Screenshot/home%20page.png)
+
+
+
 ---
 
 ## ✨ Features
