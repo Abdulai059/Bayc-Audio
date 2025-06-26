@@ -48,7 +48,7 @@ bayc-audio/
 
 ### 1. Clone the repository
 
-git clone https://github.com/your-username/bayc-audio.git
+https://github.com/Abdulai059/Bayc-Audio.git
 cd bayc-audio
 
 
